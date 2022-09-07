@@ -1,0 +1,19 @@
+.col {
+    text-align: center;
+    
+}
+
+.row {
+    width: 100vw;
+    justify-content: center;
+    margin: auto;
+}
+
+.card-text a {
+    color: black;
+}
+
+.card-text a:hover {
+    color: black;
+    border-bottom: 1px solid gray;
+}

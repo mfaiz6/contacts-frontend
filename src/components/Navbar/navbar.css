@@ -1,0 +1,28 @@
+.navbar {
+    padding: 1px;
+}
+
+
+.active {
+    font-weight: 900;
+}
+
+.navbar-nav {
+    margin-left: 85%;
+}
+
+.navbar-nav a:hover {
+    border-bottom: 1px solid wheat;
+}
+
+@media screen and (max-width: 1462px) {
+    .navbar-nav {
+        margin-left: auto;
+    }   
+}
+
+@media screen and (max-width: 700px) {
+    .navbar-nav {
+        align-items: center;
+    }   
+}
