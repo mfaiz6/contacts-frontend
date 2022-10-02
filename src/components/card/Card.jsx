@@ -1,5 +1,6 @@
 import './card.css'
 import sample_data from "../../data_sample.js"
+import { Link } from 'react-router-dom'
 
 const Card = () => {
 
@@ -13,6 +14,7 @@ const Card = () => {
                 const col = (
                     <>
                         <div class="col">
+                            <Link to="/individual">
                             <div class="card h-100 pointer">
                                 <img src={sample.img} class="card-img-top" alt="contact-logo" style={{width: "", objectFit: "contain"}} />
                                 <div class="card-body">
@@ -26,6 +28,7 @@ const Card = () => {
                                     <small class="text-muted">{sample.last_updated}</small>
                                 </div>
                             </div>
+                            </Link>
                         </div>
                     </>
                 )
