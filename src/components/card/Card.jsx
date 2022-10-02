@@ -13,7 +13,7 @@ const Card = () => {
                 const col = (
                     <>
                         <div class="col">
-                            <div class="card h-100">
+                            <div class="card h-100 pointer">
                                 <img src={sample.img} class="card-img-top" alt="contact-logo" style={{width: "", objectFit: "contain"}} />
                                 <div class="card-body">
                                     <h5 class="card-title">{sample.name}</h5>
